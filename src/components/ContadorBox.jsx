@@ -1,8 +1,5 @@
 // eslint-disable-next-line react/prop-types
 const ContadorBox = ({text,time}) => {
-
-
-
     return(
         <div className="counter-box">
           <div className="counter-box-number">

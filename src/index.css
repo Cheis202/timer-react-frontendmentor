@@ -99,3 +99,30 @@ h1{
 .icons:hover{
   color: hsl(345, 95%, 68%);
 }
+
+
+@media screen  and (max-width:375px){
+    h1{
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 5px;
+    }
+
+    .counter-container{
+      width: 90%;
+    }
+    .counter-box{
+      height: 110px;
+      width: 90px;
+    }
+    .counter-box-number{
+      width: 65px;
+      height: 65px;
+    }
+    .number{
+      font-size: 32px;
+    }
+    .counter-box-text{
+      font-size: 6px;
+    }
+}
